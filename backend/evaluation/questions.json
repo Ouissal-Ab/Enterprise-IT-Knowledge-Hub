@@ -1,0 +1,110 @@
+[
+  {
+    "question": "quelle est la durée maximale d'une session VPN ?",
+    "reponse_attendue": "10 heures de connexion ou 30 minutes d'inactivité",
+    "source_attendue": "PROC-IT-001_Connexion_VPN_FortiClient.pdf",
+    "page_attendue": 2
+  },
+  {
+    "question": "combien de tentatives avant le verrouillage du compte VPN ?",
+    "reponse_attendue": "5 erreurs de saisie, blocage de 15 minutes",
+    "source_attendue": "PROC-IT-001_Connexion_VPN_FortiClient.pdf",
+    "page_attendue": 2
+  },
+  {
+    "question": "que signifie le code d'erreur -14 du VPN FortiClient ?",
+    "reponse_attendue": "passerelle injoignable, pas d'accès Internet ou réseau public bloquant le VPN",
+    "source_attendue": "KB-IT-100_Base_de_connaissances_erreurs.pdf",
+    "page_attendue": 2
+  },
+  {
+    "question": "quel est le format de mon identifiant ?",
+    "reponse_attendue": "prenom.nom",
+    "source_attendue": "GUIDE-IT-050_Guide_accueil_nouveau_collaborateur.pdf",
+    "page_attendue": 2
+  },
+  {
+    "question": "how long before my password expires?",
+    "reponse_attendue": "180 jours",
+    "source_attendue": "GUIDE-IT-050_Guide_accueil_nouveau_collaborateur.pdf",
+    "page_attendue": 2
+  },
+  {
+    "question": "quel temps fera-t-il demain à Casablanca ?",
+    "reponse_attendue": "REFUS",
+    "source_attendue": null,
+    "page_attendue": null
+  },
+  {
+    "question": "recette du couscous",
+    "reponse_attendue": "REFUS",
+    "source_attendue": null,
+    "page_attendue": null
+  },
+  {
+    "question": "combien coûte une licence Microsoft 365 ?",
+    "reponse_attendue": "REFUS",
+    "source_attendue": null,
+    "page_attendue": null
+  },
+  {
+    "question": "ma notification Microsoft Authenticator n'est pas arrivée, que faire ?",
+    "reponse_attendue": "ouvrir Microsoft Authenticator avant la connexion, sinon choisir « Utiliser un code de vérification » et saisir le code à 6 chiffres",
+    "source_attendue": "KB-IT-100_Base_de_connaissances_erreurs.pdf",
+    "page_attendue": 2
+  },
+  {
+    "question": "quel est le numéro du Service Desk et l'adresse du portail de tickets ?",
+    "reponse_attendue": "poste interne 4455 et portail GLPI https://support.entreprise.com",
+    "source_attendue": "PROC-IT-001_Connexion_VPN_FortiClient.pdf",
+    "page_attendue": 3
+  },
+  {
+    "question": "quelle est la durée de validité de mon mot de passe Windows ?",
+    "reponse_attendue": "180 jours",
+    "source_attendue": "GUIDE-IT-050_Guide_accueil_nouveau_collaborateur.pdf",
+    "page_attendue": 2
+  },
+  {
+    "question": "quel est le tarif d'un abonnement 4G pour mon téléphone professionnel ?",
+    "reponse_attendue": "REFUS",
+    "source_attendue": null,
+    "page_attendue": null
+  },
+  {
+    "question": "que signifie le code d'erreur -9999 du VPN ?",
+    "reponse_attendue": "REFUS",
+    "source_attendue": null,
+    "page_attendue": null
+  },
+  {
+    "question": "que faire si le code -8 apparaît au VPN ?",
+    "reponse_attendue": "recréer le profil : type SSL-VPN, passerelle vpn.entreprise.com, port 443, sans certificat client",
+    "source_attendue": "PROC-IT-001_Connexion_VPN_FortiClient.pdf",
+    "page_attendue": 2
+  },
+  {
+    "question": "combien de temps sont conservés mes documents imprimés non récupérés ?",
+    "reponse_attendue": "24 heures",
+    "source_attendue": "GUIDE-IT-050_Guide_accueil_nouveau_collaborateur.pdf",
+    "page_attendue": 2
+  },
+  {
+    "question": "le VPN est-il obligatoire pour accéder à Outlook et Teams ?",
+    "reponse_attendue": "non, Outlook, Teams et OneDrive sont accessibles directement par Internet",
+    "source_attendue": "PROC-IT-001_Connexion_VPN_FortiClient.pdf",
+    "page_attendue": 1
+  },
+  {
+    "question": "puis-je utiliser le VPN sur mon ordinateur personnel ?",
+    "reponse_attendue": "non, l'utilisation du VPN sur un ordinateur personnel est interdite",
+    "source_attendue": "PROC-IT-001_Connexion_VPN_FortiClient.pdf",
+    "page_attendue": 1
+  },
+  {
+    "question": "après la connexion au VPN, comment vérifier que tout fonctionne ?",
+    "reponse_attendue": "ouvrir l'intranet https://intranet.entreprise.local et vérifier les lecteurs P: et H:",
+    "source_attendue": "PROC-IT-001_Connexion_VPN_FortiClient.pdf",
+    "page_attendue": 2
+  }
+]
