@@ -36,3 +36,5 @@ La qualité de la recherche est mesurée sur un jeu de questions de test avec de
 - **MRR@10** (Mean Reciprocal Rank) : position moyenne du bon document dans ces 10 résultats, plus il est haut, mieux c'est.
 
 Les refus hors sujet sont également testés, pour vérifier que l'assistant ne répond pas à une question qui n'appartient pas à la base.
+## Intégration continue
+À chaque push sur `main`, GitHub Actions vérifie que le frontend se construit (`npm run build`) et que le backend se compile. Le résultat est visible dans l'onglet Actions du dépôt.
